@@ -12,6 +12,8 @@ Request #3 dapat data: Data Produk 123
 Request #2 dapat data: Data Produk 123  
 Request #4 dapat data: Data Produk 123  
 
+Hanya 1 kali fetch ke DB dilakukan meskipun ada 5 request serentak — berkat singleflight.  
+
 
 ## ✅ Kesimpulan
 
